@@ -34,7 +34,7 @@ test:
   database: sample_app_test
   pool: 5
   username: root
-  password:
+  password: mysqlpass
   host: localhost
 
 production:
@@ -44,5 +44,5 @@ production:
   database: sample_app_production
   pool: 5
   username: root
-  password: 
+  password: mysqlpass
   host: localhost
